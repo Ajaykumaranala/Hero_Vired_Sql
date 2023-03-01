@@ -18,6 +18,6 @@ insert into FootballVenue values(10,"Canada",510,53945);
 
 select count(venue_name)  from footballvenue;
 
-select  venue_name as Location , capacity as Volume from footballvenue
+select  venue_name as Location , capacity as Volume from footballvenue;
 
 delete from  footballvenue where venue_name="Australia";
